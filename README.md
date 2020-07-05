@@ -1,4 +1,4 @@
-# pear
+# pear :pear:
 Pear is a framework project focused on e-commerce. 
 Developed to reduce time and costs in the production of basic web sites.
 
