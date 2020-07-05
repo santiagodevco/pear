@@ -14,7 +14,9 @@ For a better experience it's recommended to use the Normalize.css library
 
 Following you will see the ways to customize this framework in each of its parts using the pear.css file.
 
--HEADER_________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________
+
+HEADER
 
 The buttons are the only tag that has options to change aspects, which are the following:
 
