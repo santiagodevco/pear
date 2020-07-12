@@ -18,13 +18,45 @@ ________________________________________________________________________________
 
 HEADER
 
-The buttons are the only tag that has options to change aspects, which are the following:
+Changes can be made in classes:
+'.header-box', by adding the following letters: 
+-z: To remove the generic characteristics 
+-b: No generic characteristics and with a black background color
+-c and -d: are equal to -b but with blue(-c) and red(-d) background 
 
-Buttons of type <a> have two class="a or b" .
-These two options will change the color of the button from the generic color of the project Pear (Green) to a more professional gray color for commercial use. 
+'.header-container', changes in this class have a recommendation as there are only two options:
+1.header-container: it has a grid-template-row of 150px 60px. Recommended for use with the generic style.
+2.header-container-b: it has smaller dimensions, it is recommended to use it with the non-generic classes of header box, 
+  because if grid-template-row is 80px 60px.
 
+In the class '.container-image' the options are dictated by your previous choice in the class '.header-container':
+-If you chose .header-container you must use the .container-image class 
+-If you chose .header-container-b you must use the class .container-image-b
 
+Buttons of type '<a>' have three kinds
+.a: Which is white with gray letters and its default :hover in green.
+.a-b: Recommended for dark themes since its letters are in white. It has no :hover set.
+.a-c: With a black lettering color. You don't have : hover configured
 
+  The configuration of the :hover should be done as follows:
+
+	1. The :hover does not work with the generic configuration.
+
+	2. Switch to .a-b or .a-c class
+
+	This is how you can add the :hover
+	"<a class="a-b b">"
+
+	There are two types of :hover to choose from
+	1. Complete buttons: 
+  	- b
+  	- f
+  	- g
+	2. Buttons with top border only
+  	- c
+  	- d
+  	- e
+  	- h
 
 
 ATTENTION: "This work as specified in its license does not give warranties, it only gives recommendations and ways to use it correctly, to avoid errors".
