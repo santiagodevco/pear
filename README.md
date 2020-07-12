@@ -42,10 +42,13 @@ In the class '.container-image' the options are dictated by your previous choice
 	Example:
 	'<img class="container-image-b">'
 
-Buttons of type '<a>' have three kinds <br>
+Buttons of type 'a' have three kinds <br>
 .a: Which is white with gray letters and its default :hover in green. <br>
 .a-b: Recommended for dark themes since its letters are in white. It has no :hover set. <br>
 .a-c: With a black lettering color. You don't have : hover configured
+
+	Example:
+	'<a class="a-b">'
 
   The configuration of the :hover should be done as follows:
 
