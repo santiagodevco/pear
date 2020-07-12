@@ -22,16 +22,25 @@ Changes can be made in classes:
 '.header-box', by adding the following letters: <br>
 -z: To remove the generic characteristics <br>
 -b: No generic characteristics and with a black background color <br>
--c and -d: are equal to -b but with blue(-c) and red(-d) background 
+-c and -d: are equal to -b but with blue(-c) and red(-d) background <br>
+
+	Example:
+	'<section class="header-box-z">'
 
 '.header-container', changes in this class have a recommendation as there are only two options:<br>
 1.header-container: it has a grid-template-row of 150px 60px. Recommended for use with the generic style. <br>
 2.header-container-b: it has smaller dimensions, it is recommended to use it with the non-generic classes of header box, 
   because if grid-template-row is 80px 60px.
+  
+  	Example:
+	'<figure class="header-container-b">'
 
 In the class '.container-image' the options are dictated by your previous choice in the class '.header-container': <br>
 -If you chose .header-container you must use the .container-image class <br>
 -If you chose .header-container-b you must use the class .container-image-b <br>
+
+	Example:
+	'<img class="container-image-b">'
 
 Buttons of type '<a>' have three kinds <br>
 .a: Which is white with gray letters and its default :hover in green. <br>
