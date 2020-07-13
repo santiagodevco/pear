@@ -1,7 +1,8 @@
 /*-----------------Global-config----------------------*/
 body,
 html,
-header{
+header,
+main{
     margin: 0;
     padding: 0;
 }
@@ -12,11 +13,21 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 p{
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.title{
+    text-align: center;
+}
+
+.title-b{
+    color: var(--clr-b);
+    text-align: center;
 }
 
 :root{
@@ -24,7 +35,8 @@ p{
     --backgc-b: rgba(0,0,0,1);
     --backgc-c: #1550f3f1;
     --backgc-d: #fd1717;
-    --bx-shw-a: 0px 1px 6px -4px rgba(0,0,0,0.75);
+    --bx-shw-a: 0px 9px 5px -7px rgba(0,0,0,0.75);
+    --bx-shw-b: 0px 8px 6px -6px rgba(0,0,0,0.75);
     --clr-a: rgb(59, 59, 59);
     --clr-b: white;
     --bgc-b: #a6d388;
@@ -40,6 +52,8 @@ p{
     grid-template-rows: 150px 60px;
     grid-template-columns: 300px;
     justify-content: center;
+    position: relative;
+    z-index: 111;
 }
 
 .header-box-z{
@@ -49,30 +63,45 @@ p{
     grid-template-rows: 80px 60px;
     grid-template-columns: 300px;
     justify-content: center;
+    margin: 0;
+    position: relative;
+    z-index: 111;
 }
 
 .header-box-b{
     background-color: var(--backgc-b);
     box-shadow: var(--bx-shw-a);
+    display: grid;
     grid-template-rows: 80px 60px;
     grid-template-columns: 300px;
     justify-content: center;
+    margin: 0;
+    position: relative;
+    z-index: 111;
 }
 
 .header-box-c{
     background-color: var(--backgc-c);
     box-shadow: var(--bx-shw-a);
+    display: grid;
     grid-template-rows: 80px 60px;
     grid-template-columns: 300px;
     justify-content: center;
+    margin: 0;
+    position: relative;
+    z-index: 111;
 }
 
 .header-box-d{
     background-color: var(--backgc-d);
     box-shadow: var(--bx-shw-a);
+    display: grid;
     grid-template-rows: 80px 60px;
     grid-template-columns: 300px;
     justify-content: center;
+    margin: 0;
+    position: relative;
+    z-index: 111;
 }
 
 .header-container{
@@ -150,19 +179,19 @@ a{
 .a:hover{
    padding: 10px 10px;
    background-color: var(--bgc-b);
-   color: white;
+   color: var(--clr-b);
    border-radius: 3px;
 }
 
 .b:hover{
     padding: 10px 10px;
     background-color: var(--bgc-c);
-    color: white;
+    color: var(--clr-b);
 }
 
 .c:hover{
     padding: 10px 10px;
-    border-top: 2px solid white;
+    border-top: 2px solid var(--clr-b);
 }
 
 .d:hover{
@@ -178,13 +207,13 @@ a{
 .f:hover{
     padding: 10px 10px;
     background-color: var(--backgc-c);
-    color: white;
+    color: var(--clr-b);
 }
 
 .g:hover{
     padding: 10px 10px;
     background-color: var(--backgc-d);
-    color: white;
+    color: var(--clr-b);
 }
 
 .h:hover{
@@ -192,7 +221,94 @@ a{
     border-top: 2px solid black;
 }
 /*----------------------------------------------------main config------------------------------*/
+.hero-box{
+    margin: 0;
+    padding: 0;
+    width: 320px;
+    box-shadow: var(--bx-shw-b);
+}
 
+.hero-imageContainer{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-imageContainer-b{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-desc{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    position: absolute;
+    bottom: -80px;
+    right: 50px;
+}
+
+.hero-desc-b{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.75);
+    color: white;
+    bottom: -80px;
+    right: 50px;
+    position: absolute;
+}
+
+.hero-desc-c{
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: white;
+    bottom: -80px;
+    right: 50px;
+    text-align: center;
+}
+
+.hero-desc-d{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+    color: black;
+    bottom: -80px;
+    right: 50px;
+    text-align: center;
+}
+
+.prom-box{
+    margin: 0;
+    padding: 0;
+}
+
+.prom-imageContainer{
+    width: 320px;
+    height: 320px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.prom-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prom-desc{
+    text-align: center;
+}
 /*-----------------------------mobile first config-------------------*/
 @media screen and (min-width: 320px){
 
