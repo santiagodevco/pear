@@ -49,6 +49,7 @@ Buttons of type 'a' have three kinds <br>
 
 	Example:
 	'<a class="a-b">'
+	'<a class="a-z">'
 
   The configuration of the :hover should be done as follows:
 
@@ -69,6 +70,32 @@ Buttons of type 'a' have three kinds <br>
   	- d
   	- e
   	- h
+_____________________________________________________________________________________________________________________________________________________________________________
 
+MAIN
+
+The main one is divided into several sections that include the following:
+
+  Hero where the presentation image is located this section gives the user two options for the size of the 
+  image they wish to present, these are differentiated by the  
+  high that the image will have, the way to use it is
+  the next one:
+  	
+	Example:
+	<figure class="imageContainer">
+	<figure class="imageContainer-b">
+	
+  The '.prom' section is characterized by the fact that it is the part that has the first hookup to the customers, with strong discounts on the products.
+  And that is where we will find 4 options for use, two of them as small labels and the others as large labels that cover the width of the image.
+  For now there are only two colors to choose from among the labels: Black and yellow.
+  
+  The classes we can use are '.prom-desc' and '.prom-desc-b' which are small labels. And the big labels are the classes '.prom-desc-c' and '.prom-desc-d'
+  
+  	Example:
+	<article class=".prom-desc">
+	<article class=".prom-desc-d">
+	
+	
+	
 
 ATTENTION: "This work as specified in its license does not give warranties, it only gives recommendations and ways to use it correctly, to avoid errors".
