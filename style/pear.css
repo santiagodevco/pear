@@ -43,6 +43,7 @@ p{
     --bgc-b: #a6d388;
     --bgc-c: #000000;
     --ovl-clr: rgba(0,0,0,.4);
+    --font-pr: 'Roboto', sans-serif;
 }
 
 /*----------------------------header config------------------*/
@@ -51,7 +52,7 @@ p{
     background: linear-gradient(to bottom, rgba(17,17,17,1) 0%, rgba(19,19,19,1) 0%, rgba(71,71,71,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(102,102,102,1) 0%, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 6%, rgba(43,43,43,1) 82%, rgba(44,44,44,1) 100%);
     box-shadow: var(--bx-shw-a);
     display: grid;
-    grid-template-rows: 150px 60px;
+    grid-template-rows: 90px 60px;
     grid-template-columns: 300px;
     justify-content: center;
     position: relative;
@@ -110,7 +111,7 @@ p{
     margin: 0;
     padding: 0;
     width: 300px;
-    height: 150px;
+    height: 90px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -129,7 +130,7 @@ p{
 }
 
 .container-image{
-    width: 60%;
+    width: 30%;
     height: 100%;
     object-fit: cover;
 }
@@ -346,8 +347,17 @@ a{
     justify-content: center;
 }
 
-.gadgets-conten{
+.gadgets-content{
     display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.gadgets-grid{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 2%;
     justify-content: center;
     text-align: center;
 }
@@ -359,6 +369,7 @@ a{
     margin: 0;
     padding: 0;
     position: relative;
+    box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
 }
 
 .gadgets-image{
@@ -378,11 +389,177 @@ a{
     display: none;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: var(--clr-b);
     text-align: center;
 }
 
 .gadgets-imageContainer:hover .gadgets-overlay{
     display: flex;
+}
+
+.gadgets-overlay-b{
+    background: rgba(255, 255, 255, 0.877);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--bgc-c);
+    text-align: center;
+}
+
+.gadgets-imageContainer:hover .gadgets-overlay-b{
+    display: flex;
+}
+
+
+.discount-grid{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 32px 32px 32px 32px 28px;
+    grid-row-gap: 4px;
+    justify-content: center;
+    color: var(--clr-b);
+    background-color: var(--backgc-b);
+    padding-bottom: 15px;
+}
+
+.discount-grid-b{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 32px 32px 32px 32px 28px;
+    grid-row-gap: 4px;
+    justify-content: center;
+    color: var(--clr-b);
+    background-color: var(--backgc-d);
+}
+
+.discount-grid-c{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 32px 32px 32px 32px 28px;
+    grid-row-gap: 4px;
+    justify-content: center;
+    color: var(--clr-b);
+    background-color: var(--backgc-c);
+}
+
+.discount-title{
+    text-align: center;
+}
+
+.discount-input{
+    display: block;
+    width: 260px;
+    font-family: var(--font-pr);
+    padding: 5px 5px;
+    outline: none;
+    margin: 0 auto;
+}
+
+.discount-button{
+    display: flex;
+    font-family: var(--font-pr);
+    padding: 5px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: var(--bgc-b);
+    color: var(--clr-b);
+    margin: 0 auto;
+}
+
+.discount-button:active{
+    transform: scale(.8);
+}
+
+.discount-button-b{
+    display: flex;
+    font-family: var(--font-pr);
+    padding: 5px 20px;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: var(--clr-b);
+    color: var(--bgc-c);
+    margin: 0 auto;
+}
+
+.discount-button-b:active{
+    transform: scale(.8);
+}
+
+.discount-button-c{
+    display: flex;
+    font-family: var(--font-pr);
+    padding: 4px 20px;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: 3px solid var(--clr-b);
+    color: var(--clr-b);
+    margin: 0 auto;
+}
+
+.discount-button-c:active{
+    transform: scale(.9);
+}
+
+.discount-button-d{
+    display: flex;
+    font-family: var(--font-pr);
+    padding: 4px 20px;
+    text-align: center;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    color: var(--clr-b);
+    margin: 0 auto;
+}
+
+.discount-button-d:active{
+    transform: scale(1.1);
+    border-bottom: 3px solid var(--clr-b);
+}
+
+.social-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 90px);
+    justify-content: center;
+}
+
+.social-icon{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.social-image{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.support-grid{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 20px 20px 20px 20px;
+    justify-content: center;
+}
+
+.support-title{
+    text-align: center;
+}
+
+.support-button{
+    margin: 0 auto;
+}
+
+.support-button:hover{
+    text-decoration: underline;
+    text-align: center;
 }
 /*-----------------------------mobile first config-------------------*/
