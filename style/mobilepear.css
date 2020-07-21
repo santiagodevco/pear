@@ -1,0 +1,10 @@
+@media screen and (min-width: 374px){
+    /*-----------------------------header------------------*/
+    .header-box{
+        grid-template-columns: 365px;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+}

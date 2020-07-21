@@ -233,7 +233,7 @@ a{
 .hero-box{
     margin: 0;
     padding: 0;
-    width: 320px;
+    width: 100vw;
     box-shadow: var(--bx-shw-b);
 }
 
@@ -345,6 +345,14 @@ a{
     height: auto;
     text-align: center;
     justify-content: center;
+}
+
+.prom-link{
+    color: var(--bgc-c);
+}
+
+.prom-link-b{
+    color: var(--clr-b);
 }
 
 .gadgets-content{
