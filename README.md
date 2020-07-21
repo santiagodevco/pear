@@ -91,11 +91,84 @@ The main one is divided into several sections that include the following:
   
   The classes we can use are '.prom-desc' and '.prom-desc-b' which are small labels. And the big labels are the classes '.prom-desc-c' and '.prom-desc-d'
   
+  These labels are linked with the class label '<a>' which has two options for the color of the text with '.prom-link' (Black) and '.prom-link-b' (White
+  
   	Example:
 	<article class=".prom-desc">
+	  '<a class="prom-link">'
+	</article>
+	
 	<article class=".prom-desc-d">
+	  '<a class="prom-link">'
+	</article>
+	
+  The '.gadgets' section only has options to change the overlay. Which varies in two colors which are Black or White.
+  The way to choose the colors is as follows:
+  
+  	Example:
+	<article class="gadgets-overlay">
+	
+	<article class="gadgets-overlay-b">
 	
 	
+  The '.discount' section is intended to allow our customer to enter discount codes before making a purchase. And with it collect personal data to send 
+  promotions via email and this retain the customer.
+  
+  Therefore we note the importance of offering a variety of options in the styles of the data collection box.
+  The general color styles in this box are 3 which are: '.discount-grid' (Black), '.discount-grid-b' (Red), '.discount-grid-c' (Blue).
+  	
+	Example:
+	<form class="discount-grid">
+	<form class="discount-grid-b">
+	<form class="discount-grid-c">
+  
+  With this variety of colors in the data collection box, we notice that a variety of buttons are also needed to choose from, of which there are 4.
+
+  The buttons to choose from start with: '.discount-button' (Green), '.discount-button-b' (White), '.discount-button-c' (White borders), '.discount-button-d' (White top border)
+  
+  	Example:
+	<button class="discount-button">
+	<button class="discount-button-b">
+	<button class="discount-button-c">
+	<button class="discount-button-d">
 	
+_________________________________________________________________________________________________________________________________________________________________________________
+
+FOOTER
+
+The footer is divided into two sections, but only one of them (the last one) has modification options. 
+
+  The styles of the footer should be the same as the colored Header to maintain a nice style. These colors are: '.credits-box' (generic), '.credits-box-b' (Black),
+  '.credits-  box-c' (Blue), '.credits-box-d' (Red).
+  
+  	Example: 
+	'<div class="credits-box">'
+	'<div class="credits-box-b">'
+	'<div class="credits-box-c">'
+	'<div class="credits-box-d">'
+
+  There is also an option without styles which is: '.credits-box-z' (White) but it must be linked to '.credits-link-z' (Black to the letters)
+  
+  	Example:
+	'<div class="credits-box-z">'
+	  '<a class="credits-link">'
+	  
+
+____________________________________________________________________________________________________________________________________________________________________________
+
+RESPONSIVE
+
+Responsive styles are not changeable and will be adapted generically without options. 
+
+It is recommended to call the mobilepear.css file to have the responsive available. Otherwise you will have to create it. 
+
+A mobile.md file was created that will indicate the instructions for use and the additions that you will be able to see on each screen
+
+In the second version of Pear, options for responsive styles will be added.
+
+
+
+
+
 
 ATTENTION: "This work as specified in its license does not give warranties, it only gives recommendations and ways to use it correctly, to avoid errors".
