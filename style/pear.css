@@ -533,6 +533,8 @@ a{
     border-bottom: 3px solid var(--clr-b);
 }
 
+/*------------------------------------------------footer config--------------------*/
+
 .social-grid{
     display: grid;
     grid-template-columns: repeat(3, 90px);
