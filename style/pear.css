@@ -239,7 +239,6 @@ a{
 .hero-box{
     margin: 0;
     padding: 0;
-    width: 100vw;
     box-shadow: var(--bx-shw-b);
 }
 
@@ -582,14 +581,12 @@ a{
 .credits{
     margin: 0;
     padding: 0;
-    width: 100vw;
 }
 
 .credits-box{
     display: flex;
     justify-content: space-between;
     background: linear-gradient(to bottom, rgba(17,17,17,1) 0%, rgba(19,19,19,1) 0%, rgba(71,71,71,1) 0%, rgba(89,89,89,1) 0%, rgba(28,28,28,1) 0%, rgba(102,102,102,1) 0%, rgba(76,76,76,1) 0%, rgba(0,0,0,1) 6%, rgba(43,43,43,1) 82%, rgba(44,44,44,1) 100%);
-    width: 100vw;
     margin-top: 15px;
     align-items: center;
 }
@@ -598,7 +595,6 @@ a{
     display: flex;
     justify-content: space-between;
     background: var(--backgc-b);
-    width: 100vw;
     margin-top: 15px;
     align-items: center;
 }
@@ -607,7 +603,6 @@ a{
     display: flex;
     justify-content: space-between;
     background: var(--backgc-c);
-    width: 100vw;
     margin-top: 15px;
     align-items: center;
 }
@@ -616,7 +611,6 @@ a{
     display: flex;
     justify-content: space-between;
     background: var(--backgc-d);
-    width: 100vw;
     margin-top: 15px;
     align-items: center;
 }
@@ -625,7 +619,6 @@ a{
     display: flex;
     justify-content: space-between;
     background: var(--backgc-a);
-    width: 100vw;
     margin-top: 15px;
     align-items: center;
 }
