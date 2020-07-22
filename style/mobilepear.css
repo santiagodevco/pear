@@ -100,7 +100,104 @@
     }
 
     /*----------------------------------------main config------*/
-    .header-box{
-        
+    .hero-imageContainer{
+        height: 600px;
+    }
+
+    .hero-imageContainer-b{
+        height: 600px;
+    }
+
+    .prom-grid{
+        grid-template-columns: 500px;
+        grid-row-gap: 4px;
+    }
+
+    .prom-desc{
+        width: 130px;
+    }
+
+    .prom-desc-b{
+        width: 130px;
+    }
+
+    .prom-desc-c{
+        width: 500px;
+    }
+
+    .prom-desc-d{
+        width: 500px;
+    }
+
+    .gadgets-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px;
+        grid-row-gap: 0;
+    }
+
+    /*-----------------------------------footer grid-------------*/
+
+    .support-grid{
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, 20px);
+        grid-column-gap: 2%;
+    }
+}
+
+@media screen and (min-width: 1022px){
+    /*---------------------------------------main config----------------*/
+    .prom-grid{
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(2, 400px);
+        grid-column-gap: 2%;
+    }
+
+    .discount{
+        width: 600px;
+        margin: 0 auto;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .discount-grid{
+        grid-template-columns: 500px;
+    }
+
+    .discount-grid-b{
+        grid-template-columns: 500px;
+    }
+
+    .discount-grid-c{
+        grid-template-columns: 500px;
+    }
+
+    .discount-input{
+        width: 450px;
+    }
+
+    .discount-button{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .discount-button-b{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .discount-button-c{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .discount-button-d{
+        width: 150px;
+        justify-content: center;
+    }
+
+    /*--------------------------------------------footer grid-------------*/
+    .support-grid{
+        grid-template-columns: repeat(4, 200px);
+        grid-template-rows: 1fr;
     }
 }
