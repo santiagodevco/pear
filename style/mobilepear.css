@@ -1,0 +1,236 @@
+@media screen and (min-width: 374px){
+    /*-----------------------------header------------------*/
+    .header-box{
+        grid-template-columns: 365px;
+    }
+
+    .header-box-b{
+        grid-template-columns: 365px;
+    }
+
+    .header-box-c{
+        grid-template-columns: 365px;
+    }
+
+    .header-box-d{
+        grid-template-columns: 365px;
+    }
+
+    .header-box-z{
+        grid-template-columns: 365px;
+    }
+
+    .header-container{
+        width: 100%;
+    }
+
+    .header-container-b{
+        width: 100%;
+    }
+
+    /*------------------------------main--------------------*/
+    .title p{
+        display: block;
+    }
+
+    .gadgets-overlay{
+        font-size: 25px;
+    }
+
+    .gadgets-overlay-b{
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 765px){
+    /*--------------------------------header-----------------*/
+    .header-box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .header-box-b{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .header-box-c{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .header-box-d{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .header-box-z{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .header-container{
+        width: 70px;
+        height: 70px;
+    }
+
+    .header-container-b{
+        width: 70px;
+        height: 70px;
+    }
+
+    .container-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-image{
+        width: 100%;
+        height: 100%;
+    }
+
+    /*----------------------------------------main config------*/
+    .hero-imageContainer{
+        height: 600px;
+    }
+
+    .hero-imageContainer-b{
+        height: 600px;
+    }
+
+    .prom-grid{
+        grid-template-columns: 500px;
+        grid-row-gap: 4px;
+    }
+
+    .prom-desc{
+        width: 130px;
+    }
+
+    .prom-desc-b{
+        width: 130px;
+    }
+
+    .prom-desc-c{
+        width: 500px;
+    }
+
+    .prom-desc-d{
+        width: 500px;
+    }
+
+    .gadgets-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 300px;
+        grid-row-gap: 0;
+    }
+
+    /*-----------------------------------footer grid-------------*/
+
+    .support-grid{
+        grid-template-columns: repeat(2, 300px);
+        grid-template-rows: repeat(2, 20px);
+        grid-column-gap: 2%;
+    }
+}
+
+@media screen and (min-width: 1022px){
+    /*---------------------------------------main config----------------*/
+    .prom-grid{
+        grid-template-columns: repeat(2, 400px);
+        grid-template-rows: repeat(2, 400px);
+        grid-column-gap: 2%;
+    }
+
+    .discount{
+        width: 600px;
+        margin: 0 auto;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .discount-grid{
+        grid-template-columns: 500px;
+    }
+
+    .discount-grid-b{
+        grid-template-columns: 500px;
+    }
+
+    .discount-grid-c{
+        grid-template-columns: 500px;
+    }
+
+    .discount-input{
+        width: 450px;
+    }
+
+    .discount-button{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .discount-button-b{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .discount-button-c{
+        width: 150px;
+        justify-content: center;
+    }
+
+    .discount-button-d{
+        width: 150px;
+        justify-content: center;
+    }
+
+    /*--------------------------------------------footer grid-------------*/
+    .support-grid{
+        grid-template-columns: repeat(4, 200px);
+        grid-template-rows: 1fr;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    /*--------------------------------------header config------------------------*/
+    .header-nav ul{
+        grid-template-columns: repeat(4, 100px);
+        padding-right: 20px;
+    }
+
+    /*----------------------------------------main config------------*/
+    .prom-grid{
+        grid-template-columns: repeat(4, 250px);
+        grid-template-rows: 1fr;
+    }
+
+    .gadgets-grid{
+        grid-template-columns: repeat(2, 250px);
+        grid-template-rows: 250px;
+        grid-column-gap: 10%;
+        padding-bottom: 50px;
+    }
+
+    .social-grid{
+        grid-column-gap: 5%;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    /*--------------------------------------------main config--------------*/
+    .prom-grid{
+        grid-template-columns: repeat(4, 300px);
+        grid-column-gap: 0;
+    }
+}

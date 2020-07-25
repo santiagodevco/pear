@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <link rel="icon" type="image/png" href="images/logos/icon.png">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="stylesheet" href="style/pear.css">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/mobilepear.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pear Framework</title>
 </head>
 <body>
     <header>
-        <section class="header-box">
+        <section class="header-box" id="header">
             <figure class="header-container">
                 <img class="container-image" src="images/logos/credits.png" alt="">
             </figure>
@@ -25,5 +26,139 @@
             </nav>
         </section>
     </header>
+    <main>
+        <section class="hero-box">
+            <figure class="hero-imageContainer">
+                <img class="hero-image" src="images/assets/hero.jpg" alt="fondo">
+            </figure>
+        </section>
+        <article class="title">
+            <h2>Promotions</h2>
+        </article>
+        <section class="prom-box">
+            <div class="prom-grid">
+                <div class="prom-content">
+                    <figure class="prom-imageContainer">
+                        <img class="prom-image" src="images/assets/phone.jpg" alt="">
+                    </figure>
+                    <article class="prom-desc">
+                        <a class="prom-link" href="#">
+                            <p>
+                                60% OFF 
+                            </p>
+                        </a>     
+                    </article>
+                </div>
+                <div class="prom-content">
+                    <figure class="prom-imageContainer">
+                        <img class="prom-image" src="images/assets/phone.jpg" alt="">
+                    </figure>
+                    <article class="prom-desc">
+                        <a class="prom-link" href="#">
+                            <p>
+                                60% OFF 
+                            </p>
+                        </a>     
+                    </article>
+                </div>
+                <div class="prom-content">
+                    <figure class="prom-imageContainer">
+                        <img class="prom-image" src="images/assets/phone.jpg" alt="">
+                    </figure>
+                    <article class="prom-desc">
+                        <a class="prom-link" href="#">
+                            <p>
+                                60% OFF 
+                            </p>
+                        </a>  
+                    </article>
+                </div>
+                <div class="prom-content">
+                    <figure class="prom-imageContainer">
+                        <img class="prom-image" src="images/assets/phone.jpg" alt="">
+                    </figure>
+                    <article class="prom-desc">
+                        <a class="prom-link" href="#">
+                            <p>
+                                60% OFF 
+                            </p>
+                        </a>  
+                    </article>
+                </div>
+            </div>
+        </section>
+        <article class="title">
+            <h2>Accesories</h2>
+        </article>
+        <section class="gadgets">
+            <div class="gadgets-grid">
+                <div class="gadgets-content">
+                    <figure class="gadgets-imageContainer">
+                        <img class="gadgets-image" src="images/assets/gad.jpg" alt="Accesories">
+                        <article class="gadgets-overlay">
+                            <p>200USD</p>
+                        </article>
+                    </figure>
+                </div>
+                <div class="gadgets-content">
+                    <figure class="gadgets-imageContainer">
+                        <img class="gadgets-image" src="images/assets/gad.jpg" alt="Accesories">
+                        <article class="gadgets-overlay">
+                            <p>200USD</p>
+                        </article>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <article class="title">
+            <h2>Discount code</h2>
+            <p>Discount codes are subject to expiration</p>
+        </article>
+        <section class="discount">
+            <form class="discount-grid" action="#">
+                <h3 class="discount-title">Enter your information</h3>
+                <input class="discount-input" type="text" placeholder="Name">
+                <input class="discount-input" type="tel" placeholder="Cel">
+                <input class="discount-input" type="email" placeholder="example@gmail.com">
+                <input class="discount-input" type="password" placeholder="Code">
+                <button class="discount-button">Send</button>
+            </form>
+        </section>
+        <article class="title">
+            <h2>Follow US</h2>
+        </article>
+        <section class="social">
+            <div class="social-grid">
+                <a class="social-icon" href="https://www.facebook.com/" target="_blank">
+                    <img class="social-image" src="images/icons/facebook.png" alt="facebook">
+                </a>
+                <a class="social-icon" href="https://www.instagram.com/" target="_blank">
+                    <img class="social-image" src="images/icons/instagram.png" alt="instagram">
+                </a>
+                <a class="social-icon" href="https://github.com/" target="_blank">
+                    <img class="social-image" src="images/icons/github.png" alt="github">
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="support">
+            <h3 class="support-title">Contact Us</h3>
+            <div class="support-grid">
+                <a class="support-button" href="mailto:support@pear.com">support@pear.com</a>
+                <a class="support-button" href="https://web.whatsapp.com/" target="_blank">Chat Online</a>
+                <a class="support-button" href="#">Discount Problems</a>
+                <a class="support-button" href="#">Frecuents Questions</a>
+            </div>
+        </section>
+        <section class="credits">
+            <div class="credits-box">
+                <a class="credits-imageContainer" href="#header">
+                    <img class="credits-image" src="images/logos/icon.png" alt="Pera">
+                </a>
+                <a class="credits-link" href="https://www.instagram.com/">@authordevlp</a>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
