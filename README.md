@@ -99,7 +99,7 @@ The main one is divided into several sections that include the following:
 	</article>
 	
 	<article class=".prom-desc-d">
-	  '<a class="prom-link">'
+	  '<a class="prom-link-b">'
 	</article>
 	
   The '.gadgets' section only has options to change the overlay. Which varies in two colors which are Black or White.
