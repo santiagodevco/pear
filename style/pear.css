@@ -42,6 +42,7 @@ p{
     --backgc-d: #fd1717;
     --bx-shw-a: 0px 9px 5px -7px rgba(0,0,0,0.75);
     --bx-shw-b: 0px 8px 6px -6px rgba(0,0,0,0.75);
+    --bx-shw-c: 10px 10px 48px 0px rgba(219,219,219,1);
     --clr-a: rgb(59, 59, 59);
     --clr-a-2: #9b9b9b;
     --clr-b: white;
@@ -650,4 +651,127 @@ a{
 .credits-link:hover{
     text-decoration: underline;
     transform: scale(.9);
+}
+
+/*------------------------------------------------------phone config--------------------------*/
+/*--------------------------------------------------------------------------------------------*/
+
+.phone{
+    padding: 0;
+    margin: 0;
+}
+
+.phone-grid{
+    display: grid;
+    margin: 0 auto;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(10, 1fr);
+    grid-row-gap: 1%;
+    padding-bottom: 320px;
+}
+
+.phone-content{
+    margin: 0 auto;
+    box-shadow: var(--bx-shw-c);
+    padding-bottom: 20px;
+}
+
+.phone-imageContainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.phone-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.phone-button{
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    justify-content: center;
+    font-family: var(--font-pr);
+    border: none;
+    border-radius: 3px;
+    background-color: var(--bgc-c);
+    color: var(--clr-b);
+    padding: 5px;
+}
+
+.phone-button:active{
+    transform: scale(.9);
+}
+
+.accesories-content{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.accesories-grid{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 2%;
+    justify-content: center;
+    text-align: center;
+}
+
+.accesories-imageContainer{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-shadow: 10px 10px 5px -11px rgba(0,0,0,0.75);
+}
+
+.accesories-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.accesories-overlay{
+    background: rgba(0,0,0, .4);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--clr-b);
+    text-align: center;
+}
+
+.accesories-imageContainer:hover .accesories-overlay{
+    display: flex;
+}
+
+.accesories-overlay-b{
+    background: rgba(255, 255, 255, 0.877);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    color: var(--bgc-c);
+    text-align: center;
+}
+
+.accesories-imageContainer:hover .accesories-overlay-b{
+    display: flex;
 }
