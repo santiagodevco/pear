@@ -167,8 +167,42 @@ A mobile.md file was created that will indicate the instructions for use and the
 In the second version of Pear, options for responsive styles will be added.
 
 
+_________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________
 
+PHONE.HTML
 
+Phone.html is characterized by its simplicity for product demonstration, because the style options are limited for the first version.
+
+In this page we will only find two classes that can be customized.
+
+_________________________________________________________________________________________________________________________________________________________________
+
+MAIN
+
+The only customizations of this page are in the MAIN, the HEADER and the FOOTER share the classes and styles with Index.html
+
+  The first class that can be modified is '.phone-button'. Which has 5 options for customizing the purchase button, from which you can choose these styles: 
+  '.phone-button'(generic and default), '.phone-button-b'(Red button), '.phone-button-c'(Blue button) '.phone-button-d' (Button only with bottom border) and 
+  '.phone-button-z' (Green button)
+
+	Example: 
+	<button class="phone-button">
+	<button class="phone-button-b">
+	<button class="phone-button-c">
+	<button class="phone-button-d">
+	<button class="phone-button-z">
+
+  The second class that can be modified is '.partners-image' It is recommended that the images that are associated have some measures of 600x600px
+  or 700x353px so that they can be adapted to the styles.
+
+  The class choices are 2. The first '.partners-image' for images at 1:1 scale, the second '.partners-image-b' for images at 5:3 scale.
+
+	Example: 
+	<img class="partners-image">
+	<img class="partners-image-b">
+
+  
 
 
 ATTENTION: "This work as specified in its license does not give warranties, it only gives recommendations and ways to use it correctly, to avoid errors".
