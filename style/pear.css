@@ -818,3 +818,180 @@ a{
 }
 /*------------------------------------------model config--------------------*/
 /*---------------------------------------------------------------------------*/
+/*-------------------------------------------main----------------------------*/
+.buy-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 50px 30px 180px 70px 120px 50px 40px 50px;
+    grid-template-areas: "phone"
+                         "title"
+                         "price"
+                         "technical"
+                         "warranty"
+                         "stamps"
+                         "check"
+                         "email"
+                         "button";
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: var(--bx-shw-c);
+}
+
+.buy-name{
+    grid-area: title;
+}
+
+.buy-imageContainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    grid-area: phone;
+}
+
+.buy-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buy-price{
+    text-align: center;
+    grid-area: price;
+}
+
+.buy-technical{
+    color: var(--clr-a-2);
+    grid-area: technical;
+}
+
+.buy-technical ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 24px;
+}
+
+.buy-warranty{
+    color: var(--clr-a-2);
+    grid-area: warranty;
+}
+
+.buy-certification{
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: stamps;
+}
+
+.certification-img{
+    width: 100px;
+    height: 100px;
+}
+
+.buy-check{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--clr-a-2);
+    grid-area: check;
+}
+
+.buy-input{
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border: 1px solid var(--clr-a-2);
+    font-family: var(--font-pr);
+    grid-area: email;
+}
+
+.buy-button{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: var(--font-pr);
+    width: 90%;
+    height: 40px;
+    outline: none;
+    color: var(--clr-b);
+    background-color: var(--bgc-b);
+    border: 1px solid var(--bgc-b);
+    grid-area: button;
+}
+
+.buy-button:active{
+    transform: scale(.9);
+}
+
+.buy-button-b{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: var(--font-pr);
+    width: 90%;
+    height: 40px;
+    outline: none;
+    color: var(--clr-b);
+    background-color: var(--bgc-c);
+    border: 1px solid var(--bgc-b);
+    grid-area: button;
+}
+
+.buy-button-b:active{
+    transform: scale(.9);
+}
+
+.buy-button-c{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: var(--font-pr);
+    width: 90%;
+    height: 40px;
+    outline: none;
+    color: var(--clr-b);
+    background-color: var(--backgc-c);
+    border: 1px solid var(--bgc-b);
+    grid-area: button;
+}
+
+.buy-button-c:active{
+    transform: scale(.9);
+}
+
+.buy-button-d{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: var(--font-pr);
+    width: 90%;
+    height: 40px;
+    outline: none;
+    color: var(--clr-b);
+    background-color: var(--backgc-d);
+    border: 1px solid var(--bgc-b);
+    grid-area: button;
+}
+
+.buy-button-d:active{
+    transform: scale(.9);
+}
+
+.buy-button-e{
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: var(--font-pr);
+    font-weight: 600;
+    width: 90%;
+    height: 40px;
+    outline: none;
+    color: var(--bgc-c);
+    background-color: var(--clr-b);
+    border: none;
+    grid-area: button;
+}
+
+.buy-button-e:active{
+    transform: scale(1.1);
+    border-bottom: 2px solid var(--bgc-c);
+}

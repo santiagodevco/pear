@@ -258,6 +258,31 @@
         align-items: center;
         font-size: 20px;
     }
+    /*-------------------------------------------------------*/
+    /*                        model.html                     */
+    /*--------------------------main config------------------*/
+    .buy{
+        height: 1000px;
+        margin: 0;
+        align-items: center;
+    }
+    
+    .buy-grid{
+        grid-template-columns: 400px 300px;
+        grid-template-rows: 50px 30px 180px 70px 120px 50px 40px 50px;
+        grid-template-areas: ". title"
+                             ". price"
+                             "phone technical"
+                             "phone warranty"
+                             "phone stamps"
+                             "phone check"
+                             ". email"
+                             ". button";
+        grid-column-gap: 5%;
+        margin: 200px auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -297,6 +322,12 @@
         grid-template-columns: repeat(4,200px);
         grid-template-rows: 200px;
         grid-gap: 5%;
+    }
+    /*-------------------------------------------------------*/
+    /*                        model.html                     */
+    /*--------------------------main config------------------*/
+    .buy{
+        height: 100vh;
     }
 }
 
