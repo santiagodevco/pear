@@ -158,6 +158,13 @@
         grid-gap: 10%;
         padding-bottom: 50px;
     }
+    /*------------------------------------------------------*/
+    /*                           error.html                 */
+    /*------------------------------------------------------*/
+    .error-imageContainer{
+        width: 500px;
+        height: 500px;
+    }
 }
 
 @media screen and (min-width: 1022px){
