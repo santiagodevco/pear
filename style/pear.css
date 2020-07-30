@@ -49,7 +49,7 @@ p{
     --clr-z: #ffffffd8;
     --bgc-b: #a6d388;
     --bgc-c: #000000;
-    --ovl-clr: rgba(0,0,0,.4);
+    --ovl-clr: rgba(0,0,0,.75);
     --font-pr: 'Roboto', sans-serif;
 }
 
@@ -994,4 +994,155 @@ a{
 .buy-button-e:active{
     transform: scale(1.1);
     border-bottom: 2px solid var(--bgc-c);
+}
+/*-----------------------------------------------------------*/
+/*                     paynow.html                           */
+/*-----------------------------------------------------------*/
+.pay{
+    background-color: var(--ovl-clr);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.pay-box{
+    max-width: 320px;
+    padding-top: 20px;
+    background-color: var(--clr-b);
+    border-radius: 3px;
+    height: 200px;
+    box-shadow: var(--bx-shw-b);
+    margin: 0 auto;
+}
+
+.pay-desc{
+    text-align: center;
+}
+
+.pay-desc p{
+    color: var(--clr-a-2);
+}
+
+.pay-forms{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+.pay-button{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--bgc-b);
+    color: var(--clr-b);
+    font-family: var(--font-pr);
+    box-shadow: var(--bx-shw-c);
+}
+
+.pay-button:active{
+    transform: scale(.9);
+}
+
+.pay-button-b{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--bgc-c);
+    color: var(--clr-b);
+    font-family: var(--font-pr);
+    box-shadow: var(--bx-shw-c);
+}
+
+.pay-button-b:active{
+    transform: scale(.9);
+}
+
+.pay-button-c{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--backgc-c);
+    color: var(--clr-b);
+    font-family: var(--font-pr);
+    box-shadow: var(--bx-shw-c);
+}
+
+.pay-button-c:active{
+    transform: scale(.9);
+}
+
+.pay-button-d{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--clr-b);
+    color: var(--bgc-c);
+    font-family: var(--font-pr);
+    font-weight: 600;
+}
+
+.pay-button-d:active{
+    transform: scale(.9);
+    border-bottom: 3px solid var(--bgc-b);
+}
+
+.pay-button-e{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--clr-b);
+    color: var(--bgc-c);
+    font-family: var(--font-pr);
+    font-weight: 600;
+}
+
+.pay-button-e:active{
+    transform: scale(.9);
+    border-bottom: 3px solid var(--bgc-c);
+}
+
+.dontpay-button{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--backgc-d);
+    color: var(--clr-b);
+    font-family: var(--font-pr);
+    box-shadow: var(--bx-shw-c);
+}
+
+.dontpay-button:active{
+    transform: scale(.9);
+}
+
+.dontpay-button-b{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--bgc-c);
+    color: var(--clr-b);
+    font-family: var(--font-pr);
+    box-shadow: var(--bx-shw-c);
+}
+
+.dontpay-button-b:active{
+    transform: scale(.9);
+}
+
+.dontpay-button-c{
+    padding: 10px;  
+    border: none;
+    outline: none;
+    background-color: var(--clr-b);
+    color: var(--bgc-c);
+    font-family: var(--font-pr);
+    font-weight: 600;
+}
+
+.dontpay-button-c:active{
+    transform: scale(1.1);
 }
