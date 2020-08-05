@@ -142,6 +142,29 @@
         grid-template-rows: repeat(2, 20px);
         grid-column-gap: 2%;
     }
+    /*------------------------------------------------------*/
+    /*                     phone.html                          */
+    /*------------------------main config------------------*/
+    .phone-grid{
+        grid-template-columns: repeat(2,300px);
+        grid-template-rows: repeat(5,1fr);
+        grid-column-gap: 2%;
+        padding-bottom: 120px;
+    }
+
+    .partners-grid{
+        grid-template-columns: repeat(2,200px);
+        grid-template-rows: repeat(2,200px);
+        grid-gap: 10%;
+        padding-bottom: 50px;
+    }
+    /*------------------------------------------------------*/
+    /*                           error.html                 */
+    /*------------------------------------------------------*/
+    .error-imageContainer{
+        width: 500px;
+        height: 500px;
+    }
 }
 
 @media screen and (min-width: 1022px){
@@ -200,6 +223,73 @@
         grid-template-columns: repeat(4, 200px);
         grid-template-rows: 1fr;
     }
+
+    /*------------------------------------------------------*/
+    /*                     phone.html                          */
+    /*------------------------main config----------------------*/
+    .phone-grid{
+        grid-template-columns: repeat(2,400px);
+    }
+
+    .phone-button{
+        width: 200px;
+        height: 40px;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .phone-button-b{
+        width: 200px;
+        height: 40px;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .phone-button-c{
+        width: 200px;
+        height: 40px;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .phone-button-d{
+        width: 200px;
+        height: 40px;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    .phone-button-z{
+        width: 200px;
+        height: 40px;
+        align-items: center;
+        font-size: 20px;
+    }
+    /*-------------------------------------------------------*/
+    /*                        model.html                     */
+    /*--------------------------main config------------------*/
+    .buy{
+        height: 1000px;
+        margin: 0;
+        align-items: center;
+    }
+    
+    .buy-grid{
+        grid-template-columns: 400px 300px;
+        grid-template-rows: 50px 30px 180px 70px 120px 50px 40px 50px;
+        grid-template-areas: ". title"
+                             ". price"
+                             "phone technical"
+                             "phone warranty"
+                             "phone stamps"
+                             "phone check"
+                             ". email"
+                             ". button";
+        grid-column-gap: 5%;
+        margin: 200px auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -224,6 +314,27 @@
 
     .social-grid{
         grid-column-gap: 5%;
+    }
+
+    /*------------------------------------------------------*/
+    /*                     phone.html                          */
+    /*------------------------main config----------------------*/
+    .phone-grid{
+        grid-template-columns: repeat(3,300px);
+        grid-template-rows: repeat(4,1fr);
+        grid-row-gap: 2%;
+    }
+
+    .partners-grid{
+        grid-template-columns: repeat(4,200px);
+        grid-template-rows: 200px;
+        grid-gap: 5%;
+    }
+    /*-------------------------------------------------------*/
+    /*                        model.html                     */
+    /*--------------------------main config------------------*/
+    .buy{
+        height: 100vh;
     }
 }
 
