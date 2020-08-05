@@ -202,7 +202,76 @@ The only customizations of this page are in the MAIN, the HEADER and the FOOTER 
 	<img class="partners-image">
 	<img class="partners-image-b">
 
+______________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________
+MODEL.HTML
+
+The 'model.html' page is the place where the purchase will be processed and can be used as a global template for the styles you want to add in other situations, 
+the modification of this is simple.
+
+Payment gateways are not implemented by default, as they must be designed and added by the programmer who wants to use Pera. The only thing you will see is a page 
+to confirm the payment and that leads to Paypal, but nothing can be done because the Paypal button must be configured individually in each case that you use a 
+frame of any kind.
+
+______________________________________________________________________________________________________________________________________________________________________
+MAIN
+
+In this page the changes differ from the general one only in the main one, since the header and footer remain unchanged.
   
+  The only change they will be able to make to the section is on the buy button, since Pear version 1.0.0 will not incorporate more customizable.
+  
+  The buy button with the class: 'buy-button' has two groups of possible changes, among which are those that operate with the total background of the button as:
+  '.buy-button' (green-generic), '.buy-button-b'(black), '.buy-button'(blue), '.buy-button'(red).
+  
+  	Example: 
+	<button class="buy-button">
+	<button class="buy-button-b">
+	<button class="buy-button-c">
+	<button class="buy-button-d">
+	
+  And the button that works only with the lower border: '.buy-button-e' (border-bottom: black)
+  
+  	Example:
+	<button class="buy-button">
+
+______________________________________________________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________________________________________________________
+
+PAYNOW.HTML
+
+This page is only a payment confirmation, since the bank gateway or paypal button settings must be configured and implemented by the user. The only thing Pear 
+offers is styles for payment or cancel payment buttons.
+
+The only modification you can make will be to the MAIN as it is a payment confirmation we focus on the user making the process without distractions.
+_______________________________________________________________________________________________________________________________________________________________________
+
+MAIN
+
+  The styles you can add to the payment button are two groups, the first group with the full button: '.pay-button'(green-generic), '.pay-button-b'(black), 
+  '.pay-button-c'(blue).
+  
+  	Example:
+	<button class="pay-button">
+	<button class="pay-button-b">
+	<button class="pay-button-c">
+	
+  The second group of styles for the payment button has only the bottom edge of the button: '.pay-button-d'(border-button: green), 
+  '.pay-botton-e'(border-bottom: black).
+  
+  	Example:
+	<button class="pay-button-d">
+	<button class="pay-button-e">
+	
+  For the don't pay button we will only have a group of styles with the full button and colors not to draw attention: '.dontpay-button'(red-generic), 
+  '.dontpay-button-b'(black), '.dontpay-button-c'(white)
+  
+  	Example:
+	<button class="dontpay-button">
+	<button class="dontpay-button-b">
+	<button class="dontpay-button-c">
+
+
+
 
 
 ATTENTION: "This work as specified in its license does not give warranties, it only gives recommendations and ways to use it correctly, to avoid errors".
