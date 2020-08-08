@@ -41,7 +41,7 @@ p{
     --backgc-c: #1550f3f1;
     --backgc-d: #fd1717;
     --bx-shw-a: 0px 9px 5px -7px rgba(0,0,0,0.75);
-    --bx-shw-b: 0px 8px 6px -6px rgba(0,0,0,0.75);
+    --bx-shw-b:  3px 3px 16px -2px rgba(107,107,107,1);;
     --bx-shw-c: 10px 10px 48px 0px rgba(219,219,219,1);
     --clr-a: rgb(59, 59, 59);
     --clr-a-2: #9b9b9b;
@@ -1172,4 +1172,128 @@ a{
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+/*--------------------------------------------------------------*/
+/*                             accesories.html                  */
+/*---------------------------------main config-------------------------*/
+
+.accesories-grid{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(9, 1fr);
+    grid-row-gap: 10px;
+}
+
+.accesories-content{
+    width: 100%;
+    box-shadow: var(--bx-shw-b);
+}
+
+.accesories-imageContainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.accesories-imageContainer:hover .accesories-price{
+    display: flex;
+} 
+
+.accesories-imageContainer:hover .accesories-price-b{
+    display: flex;
+} 
+
+.accesories-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.accesories-price{
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--ovl-clr);
+    opacity: .6;
+    color: var(--clr-b);
+}
+
+.accesories-price-b{
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--clr-b);
+    opacity: .7;
+    color: var(--bgc-c);
+}
+
+.accesories-price h3{
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.accesories-price-b h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.accesories-price a{
+    display: inline;
+    font-family: var(--font-pr);
+    color: var(--clr-b);
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.accesories-price-b a{
+    display: inline;
+    font-family: var(--font-pr);
+    color: var(--bgc-c);
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.accesories-price a:hover{
+    border-bottom: 2px solid var(--clr-b);
+    transform: scale(1.1);
+}
+
+.accesories-price-b a:hover{
+    border-bottom: 2px solid var(--bgc-c);
+    transform: scale(1.1);
+}
+
+.unit-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 50px 30px 70px 70px 120px 50px 40px 50px;
+    grid-template-areas:
+        "phone"
+        "title"
+        "price"
+        "technical"
+        "warranty"
+        "stamps"
+        "check"
+        "email"
+        "button";
+    text-align: center;
+    margin: 50px auto;
+    box-shadow: var(--bx-shw-c);
 }
