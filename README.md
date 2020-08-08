@@ -269,7 +269,29 @@ MAIN
 	<button class="dontpay-button">
 	<button class="dontpay-button-b">
 	<button class="dontpay-button-c">
+	
+__________________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________________
 
+ACCESORIES.HTML
+
+The accesories.html page, being a site destined to the user's purchase, handles the same base styles of phone.html. As well as the purchase confirmation 
+is the same as model.html.
+
+The only options to be modified are in the MAIN of this page since it does not have a visible purchase button, this can only be seen by the user when 
+placing the cursor over the product.
+
+_________________________________________________________________________________________________________________________________________________________________________
+
+MAIN
+
+  When the user positions the cursor over the image of the product, he will be able to see the prices, the recommended options for this is if: 
+  The image has a white background, use the class '.accessories-price'(black background with opacity 0.6) and if the image has a dark background,
+  use the class '.accessories-price-b'(white background with opacity 0.6).
+  	
+	Example:
+	<div class="accesories-price">
+	<div class="accesories-price-b">
 
 
 
