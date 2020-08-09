@@ -1297,3 +1297,136 @@ a{
     margin: 50px auto;
     box-shadow: var(--bx-shw-c);
 }
+/*------------------------------------------------------------*/
+/*                            gadgets.html                    */
+/*-----------------------------main config--------------------*/
+.gadts-grid{
+    display: grid;
+    padding-bottom: 150px;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 1%;
+}
+
+.gadts-content{
+    padding-bottom: 20px;
+    width: 100%;
+    box-shadow: var(--bx-shw-c);
+    border-radius: 4px;
+}
+
+.gadts-content-b{
+    width: 100%;
+    box-shadow: var(--bx-shw-c);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.gadts-imageContainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.gadts-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.gadts-imageContainer:hover .gadts-image{
+    transform: scale(.9);
+}
+
+.gadts-desc{
+    text-align: center;
+    padding: 7px;
+}
+
+.gadts-desc-b{
+    background-color: var(--bgc-c);
+    opacity: .95;
+    color: var(--clr-b);
+    text-align: center;
+    padding: 7px;
+}
+
+.gadts-desc-b p{
+    padding-bottom: 20px;
+}
+/*------------------------------------------------------------*/
+/*                            gadts.html                    */
+/*-----------------------------main config--------------------*/
+.obtains{
+    margin: 0 auto;
+}
+
+.obtains-grid{
+    display: grid;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    grid-template-columns: 300px;
+    grid-template-rows: 300px 100px 90px 120px ;
+    box-shadow: var(--bx-shw-c);
+    grid-template-areas: "image"
+                            "price"
+                            "desc"
+                            "form";
+}
+
+.obtains-imageContainer{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    grid-area: image;
+}
+
+.obtains-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.obtains-price{
+    text-align: center;
+    grid-area: price;
+}
+
+.obtains-price p{
+    color: var(--bgc-c);
+    font-weight: 600;
+    opacity: .8;
+}
+
+.obtains-desc{
+    text-align: justify;
+    color: var(--clr-a-2);
+    grid-area: desc;
+}
+
+.obtains-form{
+    text-align: center;
+    grid-area: form;
+}
+
+.obtains-check{
+    text-align: center;
+    color: var(--clr-a-2);
+}
+
+.obtains-email{
+    margin: 15px auto;
+    padding: 0 10px;
+    width: 90%;
+    height: 30px;
+    outline: none;
+    border: 1px solid var(--clr-a-2);
+    font-family: var(--font-pr);
+}
