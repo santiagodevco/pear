@@ -357,6 +357,26 @@
         margin-top: 250px;
         margin-bottom: 250px;
     }
+
+    /*------------------------------------------------------------*/
+    /*                            services.html                   */
+    /*-----------------------------main config--------------------*/
+    .services{
+        width: 950px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .services-imageContainer{
+        width: 450px;
+    }
+
+    .services-desc{
+        width: 450px;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -425,6 +445,12 @@
                                 "image desc"
                                 "image form"
                                 "image .";
+    }
+    /*------------------------------------------------------------*/
+    /*                            services.html                   */
+    /*-----------------------------main config--------------------*/
+    .services{
+        width: 1050px;
     }
 }
 
