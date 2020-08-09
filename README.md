@@ -2,13 +2,17 @@
 Pear is a framework project focused on e-commerce. 
 Developed to reduce time and costs in the production of basic web sites.
 
-The project is in pre-Alpha phase, so it is not recommended to use the templates that will be uploaded, as they are not stable and are subject to correction.
+VERSION ALPHA
+
+The project is in Alpha phase, you can use the templates you find, as long as you use the Alpha version. Changes and improvements for the BETA version
+will continue to be uploaded and the use of files that do not correspond to the version may cause problems in the documentation
 
 The use of the new classes and tools for development will be explained in the documentation.
 
 _____________________________________________________________________________________________________________________________________________________________
 
-Pear is a framework designed to be used completely, but if you want to use only one function of it you must copy its respective parts from the HTML and CSS files.
+Pear is a framework designed to be used completely, but if you want to use only one function of it you must copy its respective parts from 
+the HTML and CSS files.
 
 For a better experience it's recommended to use the Normalize.css library
 
@@ -313,6 +317,13 @@ MAIN
 	  
 	<div class="gadts-content-b">
 	  <article class="gadts-desc-b">
+	  
+__________________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________________
+
+SERVICES.HTML
+
+This page does not have built-in style customization in the ALPHA and BETA versions, in version 1.0.0 they will be added.
 	
 
 
