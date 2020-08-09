@@ -293,7 +293,32 @@ MAIN
 	<div class="accesories-price">
 	<div class="accesories-price-b">
 
+___________________________________________________________________________________________________________________________________________________________________________
+___________________________________________________________________________________________________________________________________________________________________________
+
+GADGETS.HTML
+
+The page gadtgets.html is based on simplicity, since the purchase of these low price items, must be fast so its simplicity and attractiveness are fundamental.
+
+___________________________________________________________________________________________________________________________________________________________________________
+
+MAIN
+
+  The only elements that can be customized are the classes '.gadts-content'( must go with the article element with the class '.gadts-desc') and 
+  '.gadts-content-b'( must go with the article element with the class '.gadts-desc-b')
+  
+  	Example:
+	<div class="gadts-content">
+	  <article class="gadts-desc">
+	  
+	<div class="gadts-content-b">
+	  <article class="gadts-desc-b">
+	
+
 
 
 
 ATTENTION: "This work as specified in its license does not give warranties, it only gives recommendations and ways to use it correctly, to avoid errors".
+"This work is part of my portfolio and I make it to practice css vanilla, is not a framework with support from large companies, the next versions will bring 
+ significant improvements, for the moment if it works for you use it freely, if not use only some properties that I can offer and complete it with a more 
+ complete and complex framework."
