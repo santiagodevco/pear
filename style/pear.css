@@ -1430,3 +1430,45 @@ a{
     border: 1px solid var(--clr-a-2);
     font-family: var(--font-pr);
 }
+/*------------------------------------------------------------*/
+/*                            services.html                   */
+/*-----------------------------main config--------------------*/
+.services{
+    width: 305px;
+    margin: 25px auto;
+}
+
+.services-imageContainer{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 300px;
+}
+
+.services-image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.services-desc h3{
+    text-align: center;
+}
+
+.services-desc p{
+    text-align: justify;
+}
+
+.services-desc a:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+}
+
+.financial-link{
+    display: block;
+    padding-right: 15px;
+    margin-top: 5px;
+    text-align: right;
+}
