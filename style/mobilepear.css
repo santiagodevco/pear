@@ -40,6 +40,17 @@
     .gadgets-overlay-b{
         font-size: 25px;
     }
+
+    /*------------------------------------------------------------*/
+    /*                           register.html                    */
+    /*-----------------------------main config--------------------*/
+    .register{
+        padding: 10px 0px;
+    }
+    
+    .register-content{
+        width: 310px;
+    }
 }
 
 @media screen and (min-width: 765px){
@@ -219,6 +230,10 @@
     /*------------------------------------------------------------*/
     /*                           register.html                    */
     /*-----------------------------main config--------------------*/
+    .register{
+        padding: 0;
+    }
+    
     .register-content{
         width: 420px;
         height: 680px;

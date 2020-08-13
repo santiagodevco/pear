@@ -1507,14 +1507,16 @@ a{
 
 .register{
     display: flex;
+    padding: 100px 0px;
     align-items: center;
+    justify-content: center;
     background-color: rgba(0,0,0,.85);
     height: 100vh;
     width: 100vw;
 }
 
 .register-content{
-    width: 310px;
+    width: 300px;
     margin: 0 auto;
     padding-bottom: 40px;
     border: 2px solid var(--bgc-c);
