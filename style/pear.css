@@ -430,35 +430,28 @@ a{
 }
 
 
-.discount-grid{
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 50px 32px 32px 32px 32px 28px;
-    grid-row-gap: 4px;
-    justify-content: center;
-    color: var(--clr-b);
-    background-color: var(--backgc-b);
-    padding-bottom: 15px;
+.discount{
+    background-color: var(--bgc-c);
+    padding: 10px 0px;
+    margin-top: 40px;
 }
 
-.discount-grid-b{
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 50px 32px 32px 32px 32px 28px;
-    grid-row-gap: 4px;
-    justify-content: center;
-    color: var(--clr-b);
-    background-color: var(--backgc-d);
-}
-
-.discount-grid-c{
-    display: grid;
-    grid-template-columns: 300px;
-    grid-template-rows: 50px 32px 32px 32px 32px 28px;
-    grid-row-gap: 4px;
-    justify-content: center;
-    color: var(--clr-b);
+.discount-b{
     background-color: var(--backgc-c);
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+
+.discount-c{
+    background-color: var(--backgc-d);
+    padding: 10px 0px;
+    margin-top: 40px;
+}
+
+.discount-form{
+    flex-direction: column;
+    margin: 0 auto;
+    color: var(--clr-b);
 }
 
 .discount-title{
@@ -471,19 +464,20 @@ a{
     font-family: var(--font-pr);
     padding: 5px 5px;
     outline: none;
-    margin: 0 auto;
+    margin: 5px auto;
 }
 
 .discount-button{
     display: flex;
     font-family: var(--font-pr);
+    width: 270px;
+    justify-content: center;
     padding: 5px 20px;
-    text-align: center;
     outline: none;
     border: none;
     background-color: var(--bgc-b);
     color: var(--clr-b);
-    margin: 0 auto;
+    margin: 7px auto;
 }
 
 .discount-button:active{
@@ -493,8 +487,9 @@ a{
 .discount-button-b{
     display: flex;
     font-family: var(--font-pr);
+    width: 270px;
     padding: 5px 20px;
-    text-align: center;
+    justify-content: center;
     outline: none;
     border: none;
     background-color: var(--clr-b);
@@ -510,7 +505,8 @@ a{
     display: flex;
     font-family: var(--font-pr);
     padding: 4px 20px;
-    text-align: center;
+    width: 270px;
+    justify-content: center;
     outline: none;
     background-color: transparent;
     border: 3px solid var(--clr-b);
@@ -526,7 +522,8 @@ a{
     display: flex;
     font-family: var(--font-pr);
     padding: 4px 20px;
-    text-align: center;
+    width: 270px;
+    justify-content: center;
     outline: none;
     background-color: transparent;
     border: none;
@@ -537,6 +534,37 @@ a{
 .discount-button-d:active{
     transform: scale(1.1);
     border-bottom: 3px solid var(--clr-b);
+}
+
+.discount-link{
+    margin-top: 20px;
+    display: flex;
+    color: var(--clr-b);
+    justify-content: center;
+}
+
+.discount-link:hover{
+    text-decoration: underline;
+}
+
+.discount-register{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.discount-register p{
+    color: var(--clr-a-2);
+}
+
+.discount-link-b{
+    color: var(--clr-b);
+    justify-content: center;
+}
+
+.discount-link-b:hover{
+    text-decoration: underline;
 }
 
 /*------------------------------------------------footer config--------------------*/

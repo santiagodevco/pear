@@ -135,6 +135,29 @@
         grid-row-gap: 0;
     }
 
+    .discount{
+        width: 500px;
+        border-radius: 4px;
+        margin: 40px auto;
+    }
+
+    .discount-b{
+        width: 500px;
+        border-radius: 4px;
+        margin: 40px auto;
+    }
+
+    .discount-c{
+        width: 500px;
+        border-radius: 4px;
+        margin: 40px auto;
+    }
+
+    .discount-register{
+        width: 400px;
+        margin: 10px auto 0px auto;
+    }
+
     /*-----------------------------------footer grid-------------*/
 
     .support-grid{
@@ -212,44 +235,33 @@
 
     .discount{
         width: 600px;
-        margin: 0 auto;
-        border-radius: 20px;
+        margin: 40px auto;
+        border-radius: 4px;
         overflow: hidden;
-    }
-
-    .discount-grid{
-        grid-template-columns: 500px;
-    }
-
-    .discount-grid-b{
-        grid-template-columns: 500px;
-    }
-
-    .discount-grid-c{
-        grid-template-columns: 500px;
     }
 
     .discount-input{
         width: 450px;
+        text-align: center;
     }
 
     .discount-button{
-        width: 150px;
+        width: 300px;
         justify-content: center;
     }
 
     .discount-button-b{
-        width: 150px;
+        width: 300px;
         justify-content: center;
     }
 
     .discount-button-c{
-        width: 150px;
+        width: 300px;
         justify-content: center;
     }
 
     .discount-button-d{
-        width: 150px;
+        width: 300px;
         justify-content: center;
     }
 
