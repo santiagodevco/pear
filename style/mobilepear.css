@@ -215,6 +215,23 @@
         grid-template-columns: 400px;
         grid-template-rows: 400px 100px 90px 120px ;
     }
+
+    /*------------------------------------------------------------*/
+    /*                           register.html                    */
+    /*-----------------------------main config--------------------*/
+    .register-content{
+        width: 420px;
+        height: 680px;
+    }
+
+    .register-title{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .register-info{
+        margin-top: 100px;
+    }
 }
 
 @media screen and (min-width: 1022px){
