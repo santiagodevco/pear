@@ -430,35 +430,35 @@ a{
 }
 
 
-.discount{
+.login{
     background-color: var(--bgc-c);
     padding: 10px 0px;
     margin-top: 40px;
 }
 
-.discount-b{
+.login-b{
     background-color: var(--backgc-c);
     padding: 10px 0px;
     margin-top: 40px;
 }
 
-.discount-c{
+.login-c{
     background-color: var(--backgc-d);
     padding: 10px 0px;
     margin-top: 40px;
 }
 
-.discount-form{
+.login-form{
     flex-direction: column;
     margin: 0 auto;
     color: var(--clr-b);
 }
 
-.discount-title{
+.login-title{
     text-align: center;
 }
 
-.discount-input{
+.login-input{
     display: block;
     width: 260px;
     font-family: var(--font-pr);
@@ -467,7 +467,7 @@ a{
     margin: 5px auto;
 }
 
-.discount-button{
+.login-button{
     display: flex;
     font-family: var(--font-pr);
     width: 270px;
@@ -480,11 +480,11 @@ a{
     margin: 7px auto;
 }
 
-.discount-button:active{
+.login-button:active{
     transform: scale(.8);
 }
 
-.discount-button-b{
+.login-button-b{
     display: flex;
     font-family: var(--font-pr);
     width: 270px;
@@ -497,11 +497,11 @@ a{
     margin: 0 auto;
 }
 
-.discount-button-b:active{
+.login-button-b:active{
     transform: scale(.8);
 }
 
-.discount-button-c{
+.login-button-c{
     display: flex;
     font-family: var(--font-pr);
     padding: 4px 20px;
@@ -514,11 +514,11 @@ a{
     margin: 0 auto;
 }
 
-.discount-button-c:active{
+.login-button-c:active{
     transform: scale(.9);
 }
 
-.discount-button-d{
+.login-button-d{
     display: flex;
     font-family: var(--font-pr);
     padding: 4px 20px;
@@ -531,39 +531,39 @@ a{
     margin: 0 auto;
 }
 
-.discount-button-d:active{
+.login-button-d:active{
     transform: scale(1.1);
     border-bottom: 3px solid var(--clr-b);
 }
 
-.discount-link{
+.login-link{
     margin-top: 20px;
     display: flex;
     color: var(--clr-b);
     justify-content: center;
 }
 
-.discount-link:hover{
+.login-link:hover{
     text-decoration: underline;
 }
 
-.discount-register{
+.login-register{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-top: 10px;
 }
 
-.discount-register p{
+.login-register p{
     color: var(--clr-a-2);
 }
 
-.discount-link-b{
+.login-link-b{
     color: var(--clr-b);
     justify-content: center;
 }
 
-.discount-link-b:hover{
+.login-link-b:hover{
     text-decoration: underline;
 }
 

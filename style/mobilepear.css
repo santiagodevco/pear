@@ -146,25 +146,25 @@
         grid-row-gap: 0;
     }
 
-    .discount{
+    .login{
         width: 500px;
         border-radius: 4px;
         margin: 40px auto;
     }
 
-    .discount-b{
+    .login-b{
         width: 500px;
         border-radius: 4px;
         margin: 40px auto;
     }
 
-    .discount-c{
+    .login-c{
         width: 500px;
         border-radius: 4px;
         margin: 40px auto;
     }
 
-    .discount-register{
+    .login-register{
         width: 400px;
         margin: 10px auto 0px auto;
     }
@@ -265,34 +265,48 @@
         grid-column-gap: 2%;
     }
 
-    .discount{
+    .login{
         width: 600px;
         margin: 40px auto;
         border-radius: 4px;
         overflow: hidden;
     }
 
-    .discount-input{
+    .login-b{
+        width: 600px;
+        margin: 40px auto;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .login-c{
+        width: 600px;
+        margin: 40px auto;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+
+    .login-input{
         width: 450px;
         text-align: center;
     }
 
-    .discount-button{
+    .login-button{
         width: 300px;
         justify-content: center;
     }
 
-    .discount-button-b{
+    .login-button-b{
         width: 300px;
         justify-content: center;
     }
 
-    .discount-button-c{
+    .login-button-c{
         width: 300px;
         justify-content: center;
     }
 
-    .discount-button-d{
+    .login-button-d{
         width: 300px;
         justify-content: center;
     }

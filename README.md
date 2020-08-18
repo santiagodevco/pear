@@ -2,10 +2,10 @@
 Pear is a framework project focused on e-commerce. 
 Developed to reduce time and costs in the production of basic web sites.
 
-VERSION ALPHA
+VERSION BETA
 
-The project is in Alpha phase, you can use the templates you find, as long as you use the Alpha version. Changes and improvements for the BETA version
-will continue to be uploaded and the use of files that do not correspond to the version may cause problems in the documentation
+The project is in BETA phase, you can use the templates you find, as long as you use the BETA version. Changes and improvements for Final version 1.0.0
+will continue to load and the use of files that do not correspond to the version may cause problems in the documentation
 
 The use of the new classes and tools for development will be explained in the documentation.
 
@@ -115,26 +115,26 @@ The main one is divided into several sections that include the following:
 	<article class="gadgets-overlay-b">
 	
 	
-  The '.discount' section is intended to allow our customer to enter discount codes before making a purchase. And with it collect personal data to send 
-  promotions via email and this retain the customer.
+  The '.login' section aims to allow our customer to connect before making a purchase. And with it collect personal data to improve the customer 
+  experience with marketing promotions
   
-  Therefore we note the importance of offering a variety of options in the styles of the data collection box.
-  The general color styles in this box are 3 which are: '.discount-grid' (Black), '.discount-grid-b' (Red), '.discount-grid-c' (Blue).
+  Therefore, we note the importance of offering a variety of options in the styles of the data collection box.
+  The general color styles in this box are 3 which are: .login' (Black), .login-b' (Blue), '.login-c' (Red).
   	
 	Example:
-	<form class="discount-grid">
-	<form class="discount-grid-b">
-	<form class="discount-grid-c">
-  
+	<section class="login">
+	<section class="login-b">
+	<section class="login-c">
+	
   With this variety of colors in the data collection box, we notice that a variety of buttons are also needed to choose from, of which there are 4.
 
-  The buttons to choose from start with: '.discount-button' (Green), '.discount-button-b' (White), '.discount-button-c' (White borders), '.discount-button-d' (White top border)
+  The choice buttons start with: '.login-button' (Green), '.login-button-b' (White), '.login-button-c' (White borders), '.login-button-d' (White bottom border)
   
   	Example:
-	<button class="discount-button">
-	<button class="discount-button-b">
-	<button class="discount-button-c">
-	<button class="discount-button-d">
+	<button class="login-button">
+	<button class="login-button-b">
+	<button class="login-button-c">
+	<button class="login-button-d">
 	
 _________________________________________________________________________________________________________________________________________________________________________________
 
@@ -324,7 +324,32 @@ ________________________________________________________________________________
 SERVICES.HTML
 
 This page does not have built-in style customization in the ALPHA and BETA versions, in version 1.0.0 they will be added.
-	
+
+
+__________________________________________________________________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________________________________________________________
+
+REGISTER.HTML
+
+The registration page for new users in this BETA version has only one customizable element which is the registration button
+
+In version 1.0.0 you will have more customizable items
+
+__________________________________________________________________________________________________________________________________________________________________________
+
+MAIN 
+
+  The registration button on this page with the '.register-button' class has five customizable styles. They are: '.register-button'(Green), 
+  '.register-button-b'(Black), '.register-button-c'(Blue), '.register-button-d'(Red), '.register-button-e'(Black bottom edge),
+  
+  	Example:
+	<button class="register-button">
+	<button class="register-button-b">
+	<button class="register-button-c">
+	<button class="register-button-d">
+	<button class="register-button-e">
+
+
 
 
 
