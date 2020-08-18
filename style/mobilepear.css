@@ -40,6 +40,17 @@
     .gadgets-overlay-b{
         font-size: 25px;
     }
+
+    /*------------------------------------------------------------*/
+    /*                           register.html                    */
+    /*-----------------------------main config--------------------*/
+    .register{
+        padding: 10px 0px;
+    }
+    
+    .register-content{
+        width: 310px;
+    }
 }
 
 @media screen and (min-width: 765px){
@@ -135,6 +146,29 @@
         grid-row-gap: 0;
     }
 
+    .login{
+        width: 500px;
+        border-radius: 4px;
+        margin: 40px auto;
+    }
+
+    .login-b{
+        width: 500px;
+        border-radius: 4px;
+        margin: 40px auto;
+    }
+
+    .login-c{
+        width: 500px;
+        border-radius: 4px;
+        margin: 40px auto;
+    }
+
+    .login-register{
+        width: 400px;
+        margin: 10px auto 0px auto;
+    }
+
     /*-----------------------------------footer grid-------------*/
 
     .support-grid{
@@ -192,6 +226,27 @@
         grid-template-columns: 400px;
         grid-template-rows: 400px 100px 90px 120px ;
     }
+
+    /*------------------------------------------------------------*/
+    /*                           register.html                    */
+    /*-----------------------------main config--------------------*/
+    .register{
+        padding: 0;
+    }
+    
+    .register-content{
+        width: 420px;
+        height: 680px;
+    }
+
+    .register-title{
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .register-info{
+        margin-top: 100px;
+    }
 }
 
 @media screen and (min-width: 1022px){
@@ -210,46 +265,49 @@
         grid-column-gap: 2%;
     }
 
-    .discount{
+    .login{
         width: 600px;
-        margin: 0 auto;
-        border-radius: 20px;
+        margin: 40px auto;
+        border-radius: 4px;
         overflow: hidden;
     }
 
-    .discount-grid{
-        grid-template-columns: 500px;
+    .login-b{
+        width: 600px;
+        margin: 40px auto;
+        border-radius: 4px;
+        overflow: hidden;
     }
 
-    .discount-grid-b{
-        grid-template-columns: 500px;
+    .login-c{
+        width: 600px;
+        margin: 40px auto;
+        border-radius: 4px;
+        overflow: hidden;
     }
 
-    .discount-grid-c{
-        grid-template-columns: 500px;
-    }
-
-    .discount-input{
+    .login-input{
         width: 450px;
+        text-align: center;
     }
 
-    .discount-button{
-        width: 150px;
+    .login-button{
+        width: 300px;
         justify-content: center;
     }
 
-    .discount-button-b{
-        width: 150px;
+    .login-button-b{
+        width: 300px;
         justify-content: center;
     }
 
-    .discount-button-c{
-        width: 150px;
+    .login-button-c{
+        width: 300px;
         justify-content: center;
     }
 
-    .discount-button-d{
-        width: 150px;
+    .login-button-d{
+        width: 300px;
         justify-content: center;
     }
 
